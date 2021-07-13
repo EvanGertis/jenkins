@@ -1,9 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage ('Clone') {
+        stage ('Test') {
             steps {
-                sh "hello world"
+                sh "echo 'hello world'"
             }
         }
 			}
